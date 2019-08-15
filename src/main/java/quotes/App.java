@@ -3,12 +3,26 @@
  */
 package quotes;
 
-public class App {
-    public String getGreeting() {
-        return "Hello world.";
-    }
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class App {
+    public static Quote[] arr;
+
+    public static void main(String[] args) throws IOException, ParseException {
+        Gson gson = new Gson();
+
+        Scanner reader = new Scanner(new File("src/main/resources/recentQuotes.json"));
+
+
     }
 }

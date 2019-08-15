@@ -29,6 +29,9 @@ dependencies {
 
     //Use GSON for fun
     implementation 'com.google.code.gson:gson:2.8.5'
+
+    // Use
+    implementation 'com.googlecode.json-simple:json-simple:1.1'
 }
 
 application {
