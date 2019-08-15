@@ -4,9 +4,22 @@
 package quotes;
 
 import org.junit.Test;
+
+import java.io.FileNotFoundException;
+
 import static org.junit.Assert.*;
 
 public class AppTest {
+    @Test public void testPullQuote () throws FileNotFoundException {
+        assertEquals("Author and Quote should be listed", "Author: Marilyn Monroe\nQuote:  “I am good, but not an angel. I do sin, but I am not the devil. I am just a small girl in a big world trying to find someone to love.” ", App.createArrayOfString()[0].toString());
+    }
+
+    @Test public void testRandomQuote () throws FileNotFoundException {
+        for (int i = 0; i < 1000; i++) {
+            int randomNumber = App.quoteRandomizer(App.createArrayOfString());
+            assertTrue("index should bve in range of array of quotes", randomNumber >= 0 && randomNumber <= App.createArrayOfString().length);
+        }
+    }
 
     }
 
