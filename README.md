@@ -1,7 +1,7 @@
 ## Lab 8 Quotes
 When given a .json file of quotes, create a method to pull quotes randomly from the file and print them on the terminal.
  
-### Instructions###
+### Instructions 
 In your terminal:
 
 `git clone https://github.com/rnmessick/quotes.git` 
@@ -10,7 +10,7 @@ In your terminal:
 
 `// enjoy your random quote!`
 
-###Collaborators and Resources###
+### Collaborators and Resources 
 
 Nick Paro
 
