@@ -12,6 +12,7 @@ public class App {
 
     public static void main(String[] args) throws IOException {
         printQuote(createArrayOfString());
+        
     }
 
     public static Quote[] createArrayOfString() throws FileNotFoundException {

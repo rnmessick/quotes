@@ -2,7 +2,11 @@
 When given a .json file of quotes, create a method to pull quotes randomly from the file and print them on the terminal.
  
 ### Instructions
-Only dependency added was GSON.  This is a self sufficient app, simply compile and run.
+In your terminal:
+
+`git clone https://github.com/rnmessick/quotes.git` 
+`./gradlew run `
+`// enjoy your random quote!`
 
 ###Collaborators and Resources
 Nick Paro
