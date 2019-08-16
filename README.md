@@ -5,7 +5,9 @@ When given a .json file of quotes, create a method to pull quotes randomly from 
 In your terminal:
 
 `git clone https://github.com/rnmessick/quotes.git` 
+
 `./gradlew run `
+
 `// enjoy your random quote!`
 
 ###Collaborators and Resources
